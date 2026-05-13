@@ -1,0 +1,885 @@
+<header class="fixed top-0 left-0 right-0 z-1000 bg-[rgba(250,249,247,0.95)] backdrop-blur-3 border-b border-[rgba(196,181,160,0.1)] transition-all duration-300">
+
+  <div class="max-w-360 mx-auto px-6 py-4 flex items-center justify-between">
+
+    <!-- Logo -->
+    <div class="flex items-center gap-3 text-[#6B4E37] cursor-pointer">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+        <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5"></circle>
+        <text
+          x="20"
+          y="27"
+          text-anchor="middle"
+          fill="currentColor"
+          font-size="20"
+          font-family="serif"
+          font-weight="300"
+        >
+          C
+        </text>
+      </svg>
+
+      <span class="font-[Cormorant_Garamond] text-[20px] font-light tracking-[-0.3px]">
+        Closet Concept
+      </span>
+    </div>
+
+    <!-- Nav -->
+    <nav class="flex gap-8">
+      <button class="relative text-[14px] font-normal tracking-[0.5px] text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:bottom-1 after:w-0 after:h-px after:bg-[#C4B5A0] after:transition-all after:duration-300 hover:after:w-full">
+        Início
+      </button>
+
+      <button class="relative text-[14px] font-normal tracking-[0.5px] text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:bottom-1 after:w-0 after:h-px after:bg-[#C4B5A0] after:transition-all after:duration-300 hover:after:w-full">
+        Joias
+      </button>
+
+      <button class="relative text-[14px] font-normal tracking-[0.5px] text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:bottom-1 after:w-0 after:h-px after:bg-[#C4B5A0] after:transition-all after:duration-300 hover:after:w-full">
+        Roupas
+      </button>
+
+      <button class="relative text-[14px] font-normal tracking-[0.5px] text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:bottom-1 after:w-0 after:h-px after:bg-[#C4B5A0] after:transition-all after:duration-300 hover:after:w-full">
+        Acessórios
+      </button>
+
+      <button class="relative text-[14px] font-normal tracking-[0.5px] text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:bottom-1 after:w-0 after:h-px after:bg-[#C4B5A0] after:transition-all after:duration-300 hover:after:w-full">
+        Sobre
+      </button>
+
+      <button class="relative text-[14px] font-normal tracking-[0.5px] text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:bottom-1 after:w-0 after:h-px after:bg-[#C4B5A0] after:transition-all after:duration-300 hover:after:w-full">
+        Contato
+      </button>
+    </nav>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-2">
+
+      <!-- Search -->
+      <button class="h-9 w-9 flex items-center justify-center text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="m21 21-4.34-4.34"></path>
+          <circle cx="11" cy="11" r="8"></circle>
+        </svg>
+      </button>
+
+      <!-- Heart -->
+      <button class="h-9 w-9 flex items-center justify-center text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+        </svg>
+      </button>
+
+      <!-- User -->
+      <button class="h-9 w-9 flex items-center justify-center text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+          <circle cx="12" cy="7" r="4"></circle>
+        </svg>
+      </button>
+
+      <!-- Cart -->
+      <button class="relative h-9 w-9 flex items-center justify-center text-[#2C2C2C] hover:text-[#C4B5A0] transition-colors">
+        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+          <path d="M3 6h18"></path>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+
+        <span class="absolute -top-1 -right-1 bg-[#C4B5A0] text-[#FAF9F7] text-[10px] font-semibold px-1.5 py-0.5 rounded-full">
+          0
+        </span>
+      </button>
+
+      <!-- Mobile Menu -->
+      <button class="hidden h-9 w-9 items-center justify-center">
+        <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M4 12h16"></path>
+          <path d="M4 18h16"></path>
+          <path d="M4 6h16"></path>
+        </svg>
+      </button>
+
+    </div>
+  </div>
+</header>
+
+<main>
+    <section class="relative h-screen min-h-150 flex items-center justify-center overflow-hidden">
+
+    <!-- Background -->
+    <div
+        class="absolute inset-0 bg-cover bg-center bg-no-repeat animate-[heroZoom_20s_ease-in-out_infinite_alternate]"
+        style="background-image: url('https://images.unsplash.com/photo-1764179690227-af049306cd20?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwZmFzaGlvbiUyMHdvbWFufGVufDB8fHx8MTc3NDQ0OTYwOHww&ixlib=rb-4.1.0&q=85');"
+    ></div>
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 gradient-to-br from-[rgba(44,44,44,0.7)] to-[rgba(107,78,55,0.5)] z-1"></div>
+
+    <!-- Content -->
+    <div class="relative z-2 text-center text-[#FAF9F7] max-w-200 px-6 animate-[heroFadeIn_1s_ease-out]">
+
+        <!-- Logo -->
+        <div class="mb-6 animate-[heroLogoAppear_1.2s_ease-out]">
+        <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+            <circle cx="30" cy="30" r="28" stroke="currentColor" stroke-width="2"></circle>
+            <text x="30" y="40" text-anchor="middle" fill="currentColor" font-size="32" font-family="serif" font-weight="300">
+            C
+            </text>
+        </svg>
+        </div>
+
+        <!-- Title -->
+        <h1 class="font-[Cormorant_Garamond] text-[72px] leading-[1.1] font-light tracking-[-1px] mb-4">
+        Closet Concept
+        </h1>
+
+        <!-- Subtitle -->
+        <p class="font-[Cormorant_Garamond] text-[28px] font-light tracking-[1px] mb-4 text-[#D4C4B0]">
+        Onde Elegância Encontra Estilo
+        </p>
+
+        <!-- Description -->
+        <p class="font-[Montserrat] text-[16px] font-light leading-relaxed mb-8 text-[#F5F3F0]">
+        Descubra uma coleção exclusiva de joias e moda feminina que define seu estilo único
+        </p>
+
+        <!-- CTA -->
+        <button class="inline-flex items-center gap-2 bg-[#C4B5A0] text-[#FAF9F7] text-sm font-medium uppercase tracking-[1px] px-12 py-4 rounded-md transition-all duration-300 hover:bg-[#B3A490] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(196,181,160,0.3)]">
+        Explorar Coleção
+        <svg class="ml-2 h-5 w-5" viewBox="0 0 24 24">
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+        </svg>
+        </button>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-[scrollBounce_2s_ease-in-out_infinite]">
+        <div class="w-px h-10 gradient-to-b from-transparent to-[#FAF9F7]"></div>
+        <span class="text-[11px] tracking-[2px] uppercase text-[#F5F3F0]">
+            Role para descobrir
+        </span>
+        </div>
+
+    </div>
+    </section>
+
+    <section id="collections" class="bg-[#FAF9F7]">
+        <div class="max-w-360 mx-auto px-6 py-24">
+
+            <!-- Header -->
+            <div class="text-center mb-16">
+            <h2 class="font-[Cormorant_Garamond] text-[48px] font-light tracking-[-0.5px] text-[#2C2C2C] mb-4">
+                Coleções em Destaque
+            </h2>
+
+            <p class="font-[Montserrat] text-[16px] font-light text-[#8B7D6B] leading-relaxed max-w-200 mx-auto">
+                Explore nossas coleções exclusivas, cuidadosamente curadas para você
+            </p>
+            </div>
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Card 1 -->
+            <div class="group bg-white rounded-lg overflow-hidden shadow-[0_4px_16px_rgba(0,0,0,0.08)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.15)] transition-all duration-300 hover:-translate-y-2 animate-[fadeInUp_0.6s_ease-out_both]">
+
+                <div class="relative w-full h-100 overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1758995115475-7b7d6eb060ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBqZXdlbHJ5JTIwZ29sZHxlbnwwfHx8fDE3NzQ0NDk2MTF8MA&ixlib=rb-4.1.0&q=85"
+                    alt="Joias Exclusivas"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                >
+
+                <!-- Overlay -->
+                <div class="absolute inset-0 bg-[rgba(44,44,44,0.7)] flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+
+                    <button class="flex items-center bg-[#C4B5A0] text-[#FAF9F7] text-[14px] font-medium uppercase tracking-[1px] px-8 py-3 rounded-md transition hover:bg-[#B3A490] hover:-translate-y-0.5">
+                    Explorar
+                    <svg class="ml-2 h-4 w-4" viewBox="0 0 24 24">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                    </button>
+
+                </div>
+
+                </div>
+
+                <div class="p-6">
+                <h3 class="font-[Cormorant_Garamond] text-[28px] font-light text-[#2C2C2C] mb-2">
+                    Joias Exclusivas
+                </h3>
+
+                <p class="font-[Montserrat] text-[14px] font-light text-[#8B7D6B]">
+                    Peças únicas que realçam sua beleza
+                </p>
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+            <div class="group bg-white rounded-lg overflow-hidden shadow-[0_4px_16px_rgba(0,0,0,0.08)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.15)] transition-all duration-300 hover:-translate-y-2 animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.1s]">
+
+                <div class="relative w-full h-100 overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1759229874914-c1ffdb3ebd0c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwzfHxtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMGNsb3RoaW5nfGVufDB8fHx8MTc3NDQ0OTYxNXww&ixlib=rb-4.1.0&q=85"
+                    alt="Alta Costura"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                >
+
+                <div class="absolute inset-0 bg-[rgba(44,44,44,0.7)] flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+
+                    <button class="flex items-center bg-[#C4B5A0] text-[#FAF9F7] text-[14px] font-medium uppercase tracking-[1px] px-8 py-3 rounded-md transition hover:bg-[#B3A490] hover:-translate-y-0.5">
+                    Explorar
+                    <svg class="ml-2 h-4 w-4" viewBox="0 0 24 24">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                    </button>
+
+                </div>
+
+                </div>
+
+                <div class="p-6">
+                <h3 class="font-[Cormorant_Garamond] text-[28px] font-light text-[#2C2C2C] mb-2">
+                    Alta Costura
+                </h3>
+
+                <p class="font-[Montserrat] text-[14px] font-light text-[#8B7D6B]">
+                    Roupas que traduzem sofisticação
+                </p>
+                </div>
+
+            </div>
+
+            <!-- Card 3 -->
+            <div class="group bg-white rounded-lg overflow-hidden shadow-[0_4px_16px_rgba(0,0,0,0.08)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.15)] transition-all duration-300 hover:-translate-y-2 animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.2s]">
+
+                <div class="relative w-full h-100 overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1767921804162-9c55a278768d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBqZXdlbHJ5JTIwZ29sZHxlbnwwfHx8fDE3NzQ0NDk2MTF8MA&ixlib=rb-4.1.0&q=85"
+                    alt="Acessórios Premium"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                >
+
+                <div class="absolute inset-0 bg-[rgba(44,44,44,0.7)] flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+
+                    <button class="flex items-center bg-[#C4B5A0] text-[#FAF9F7] text-[14px] font-medium uppercase tracking-[1px] px-8 py-3 rounded-md transition hover:bg-[#B3A490] hover:-translate-y-0.5">
+                    Explorar
+                    <svg class="ml-2 h-4 w-4" viewBox="0 0 24 24">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                    </button>
+
+                </div>
+
+                </div>
+
+                <div class="p-6">
+                <h3 class="font-[Cormorant_Garamond] text-[28px] font-light text-[#2C2C2C] mb-2">
+                    Acessórios Premium
+                </h3>
+
+                <p class="font-[Montserrat] text-[14px] font-light text-[#8B7D6B]">
+                    Detalhes que fazem a diferença
+                </p>
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-[#F5F3F0]">
+
+    <div class="max-w-360 mx-auto px-6 py-24">
+
+        <!-- Header -->
+        <div class="text-center mb-16">
+        <h2 class="font-[Cormorant_Garamond] text-[48px] font-light tracking-[-0.5px] text-[#2C2C2C] mb-4">
+            Explore por Categoria
+        </h2>
+
+        <p class="font-[Montserrat] text-[16px] font-light text-[#8B7D6B]">
+            Encontre exatamente o que você procura
+        </p>
+        </div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
+
+        <!-- Card -->
+        <button class="group bg-white border border-[rgba(196,181,160,0.2)] rounded-lg px-4 py-8 text-center transition-all duration-300 hover:bg-[#C4B5A0] hover:border-[#C4B5A0] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(196,181,160,0.3)] animate-[fadeInUp_0.6s_ease-out_both]">
+
+            <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center text-[#C4B5A0] group-hover:text-[#FAF9F7] transition-colors">
+            <!-- Ícone aqui -->
+            </div>
+
+            <h3 class="font-[Montserrat] text-[14px] font-medium tracking-[0.5px] text-[#2C2C2C] mb-1 group-hover:text-[#FAF9F7] transition-colors">
+            Joias
+            </h3>
+
+            <p class="font-[Montserrat] text-[12px] font-light text-[#8B7D6B] group-hover:text-[#F5F3F0] transition-colors">
+            156 itens
+            </p>
+
+        </button>
+
+        <!-- Card -->
+        <button class="group bg-white border border-[rgba(196,181,160,0.2)] rounded-lg px-4 py-8 text-center transition-all duration-300 hover:bg-[#C4B5A0] hover:border-[#C4B5A0] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(196,181,160,0.3)] animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.05s]">
+            <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center text-[#C4B5A0] group-hover:text-[#FAF9F7]">
+            </div>
+            <h3 class="text-[14px] font-medium text-[#2C2C2C] mb-1 group-hover:text-white">Vestidos</h3>
+            <p class="text-[12px] text-[#8B7D6B] group-hover:text-[#F5F3F0]">89 itens</p>
+        </button>
+
+        <!-- Card -->
+        <button class="group bg-white border border-[rgba(196,181,160,0.2)] rounded-lg px-4 py-8 text-center transition-all duration-300 hover:bg-[#C4B5A0] hover:border-[#C4B5A0] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(196,181,160,0.3)] animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.1s]">
+            <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center text-[#C4B5A0] group-hover:text-[#FAF9F7]">
+            </div>
+            <h3 class="text-[14px] font-medium text-[#2C2C2C] mb-1 group-hover:text-white">Bolsas</h3>
+            <p class="text-[12px] text-[#8B7D6B] group-hover:text-[#F5F3F0]">67 itens</p>
+        </button>
+
+        <!-- Card -->
+        <button class="group bg-white border border-[rgba(196,181,160,0.2)] rounded-lg px-4 py-8 text-center transition-all duration-300 hover:bg-[#C4B5A0] hover:border-[#C4B5A0] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(196,181,160,0.3)] animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.15s]">
+            <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center text-[#C4B5A0] group-hover:text-[#FAF9F7]">
+            </div>
+            <h3 class="text-[14px] font-medium text-[#2C2C2C] mb-1 group-hover:text-white">Sapatos</h3>
+            <p class="text-[12px] text-[#8B7D6B] group-hover:text-[#F5F3F0]">94 itens</p>
+        </button>
+
+        <!-- Card -->
+        <button class="group bg-white border border-[rgba(196,181,160,0.2)] rounded-lg px-4 py-8 text-center transition-all duration-300 hover:bg-[#C4B5A0] hover:border-[#C4B5A0] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(196,181,160,0.3)] animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.2s]">
+            <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center text-[#C4B5A0] group-hover:text-[#FAF9F7]">
+            </div>
+            <h3 class="text-[14px] font-medium text-[#2C2C2C] mb-1 group-hover:text-white">Acessórios</h3>
+            <p class="text-[12px] text-[#8B7D6B] group-hover:text-[#F5F3F0]">142 itens</p>
+        </button>
+
+        <!-- Card -->
+        <button class="group bg-white border border-[rgba(196,181,160,0.2)] rounded-lg px-4 py-8 text-center transition-all duration-300 hover:bg-[#C4B5A0] hover:border-[#C4B5A0] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(196,181,160,0.3)] animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.25s]">
+            <div class="w-12 h-12 mx-auto mb-4 flex items-center justify-center text-[#C4B5A0] group-hover:text-[#FAF9F7]">
+            </div>
+            <h3 class="text-[14px] font-medium text-[#2C2C2C] mb-1 group-hover:text-white">Lingerie</h3>
+            <p class="text-[12px] text-[#8B7D6B] group-hover:text-[#F5F3F0]">78 itens</p>
+        </button>
+
+        </div>
+
+    </div>
+    </section>
+
+    <section class="bg-[#FAF9F7]">
+        <div class="max-w-360 mx-auto px-6 py-24">
+
+            <!-- Header -->
+            <div class="text-center mb-16">
+            <h2 class="font-[Cormorant_Garamond] text-[48px] font-light tracking-[-0.5px] text-[#2C2C2C] mb-4">
+                Produtos em Destaque
+            </h2>
+
+            <p class="font-[Montserrat] text-[16px] font-light text-[#8B7D6B]">
+                Peças selecionadas especialmente para você
+            </p>
+            </div>
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+
+            <!-- Product -->
+            <div class="group relative bg-white rounded-lg overflow-hidden shadow-[0_4px_16px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_12px_32px_rgba(0,0,0,0.15)] animate-[fadeInUp_0.6s_ease-out_both]">
+
+                <!-- Badge -->
+                <div class="absolute top-4 left-4 z-10 bg-[#C4B5A0] text-[#FAF9F7] text-[11px] font-medium tracking-[1px] uppercase px-3 py-1 rounded">
+                Novo
+                </div>
+
+                <!-- Favorite -->
+                <button class="absolute top-4 right-4 z-10 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center text-[#8B7D6B] transition hover:bg-[#C4B5A0] hover:text-white">
+                ❤️
+                </button>
+
+                <!-- Image -->
+                <div class="relative w-full h-87.5 overflow-hidden">
+                <img
+                    src="https://images.unsplash.com/photo-1758995115475-7b7d6eb060ba"
+                    class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
+                />
+
+                <!-- Overlay -->
+                <div class="absolute bottom-0 left-0 right-0 p-6 gradient-to-t from-black/90 to-transparent flex justify-center opacity-0 translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
+
+                    <button class="bg-[#C4B5A0] text-white text-sm px-4 py-2 rounded flex items-center gap-2 hover:bg-[#B3A490]">
+                    🛒 Adicionar
+                    </button>
+
+                </div>
+                </div>
+
+                <!-- Content -->
+                <div class="p-6">
+
+                <!-- Rating -->
+                <div class="flex items-center gap-1 mb-3 text-[#C4B5A0] text-xs">
+                    ★★★★☆
+                    <span class="text-[#8B7D6B] ml-1">4.9</span>
+                </div>
+
+                <h3 class="font-[Cormorant_Garamond] text-[22px] font-light text-[#2C2C2C] mb-1">
+                    Colar Ouro Venezia
+                </h3>
+
+                <p class="text-[13px] text-[#8B7D6B] mb-3">
+                    Joias
+                </p>
+
+                <p class="text-[18px] font-medium text-[#6B4E37]">
+                    R$ 2.890,00
+                </p>
+
+                </div>
+            </div>
+
+            <!-- Product -->
+            <div class="group relative bg-white rounded-lg overflow-hidden shadow-[0_4px_16px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_12px_32px_rgba(0,0,0,0.15)] animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.1s]">
+
+                <div class="absolute top-4 left-4 z-10 bg-[#C4B5A0] text-white text-[11px] px-3 py-1 rounded uppercase">
+                Destaque
+                </div>
+
+                <button class="absolute top-4 right-4 z-10 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center text-[#8B7D6B] hover:bg-[#C4B5A0] hover:text-white">
+                ❤️
+                </button>
+
+                <div class="relative h-87.5 overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1767921804162-9c55a278768d" class="w-full h-full object-cover group-hover:scale-110 transition" />
+
+                <div class="absolute bottom-0 left-0 right-0 p-6 gradient-to-t from-black/90 to-transparent flex justify-center opacity-0 translate-y-5 transition-all group-hover:opacity-100 group-hover:translate-y-0">
+                    <button class="bg-[#C4B5A0] text-white px-4 py-2 rounded hover:bg-[#B3A490]">
+                    🛒 Adicionar
+                    </button>
+                </div>
+                </div>
+
+                <div class="p-6">
+                <div class="text-[#C4B5A0] text-xs mb-2">★★★★★ <span class="text-[#8B7D6B] ml-1">5</span></div>
+                <h3 class="text-[22px] font-light text-[#2C2C2C]">Anel Diamante Étoile</h3>
+                <p class="text-sm text-[#8B7D6B] mb-3">Joias</p>
+                <p class="text-lg font-medium text-[#6B4E37]">R$ 4.590,00</p>
+                </div>
+            </div>
+
+            <!-- Product -->
+            <div class="group relative bg-white rounded-lg overflow-hidden shadow-[0_4px_16px_rgba(0,0,0,0.08)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_12px_32px_rgba(0,0,0,0.15)] animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.2s]">
+
+                <button class="absolute top-4 right-4 z-10 w-10 h-10 bg-white/90 rounded-full flex items-center justify-center text-[#8B7D6B] hover:bg-[#C4B5A0] hover:text-white">
+                ❤️
+                </button>
+
+                <div class="relative h-87.5 overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1758995116121-60090f17ae20" class="w-full h-full object-cover group-hover:scale-110 transition" />
+
+                <div class="absolute bottom-0 left-0 right-0 p-6 gradient-to-t from-black/90 to-transparent flex justify-center opacity-0 translate-y-5 transition-all group-hover:opacity-100 group-hover:translate-y-0">
+                    <button class="bg-[#C4B5A0] text-white px-4 py-2 rounded hover:bg-[#B3A490]">
+                    🛒 Adicionar
+                    </button>
+                </div>
+                </div>
+
+                <div class="p-6">
+                <div class="text-[#C4B5A0] text-xs mb-2">★★★★☆ <span class="text-[#8B7D6B] ml-1">4.8</span></div>
+                <h3 class="text-[22px] font-light text-[#2C2C2C]">Pulseira Aurora</h3>
+                <p class="text-sm text-[#8B7D6B] mb-3">Joias</p>
+                <p class="text-lg font-medium text-[#6B4E37]">R$ 1.690,00</p>
+                </div>
+            </div>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="text-center">
+            <button class="border-2 border-[#C4B5A0] text-[#2C2C2C] uppercase tracking-[1px] px-10 py-4 font-medium transition hover:bg-[#C4B5A0] hover:text-white hover:-translate-y-1">
+                Ver Toda Coleção
+            </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-[#F5F3F0]">
+        <div class="max-w-360 mx-auto px-6 py-24">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+            <!-- IMAGE -->
+            <div class="relative">
+                <div class="relative rounded-lg overflow-hidden">
+
+                <img 
+                    src="https://images.pexels.com/photos/3762938/pexels-photo-3762938.jpeg"
+                    class="w-full h-125 lg:h-150 object-cover rounded-lg"
+                />
+
+                <!-- Accent -->
+                <div class="absolute -top-4 -left-4 right-4 bottom-4 border-2 border-[#C4B5A0] rounded-lg -z-10"></div>
+
+                </div>
+            </div>
+
+            <!-- CONTENT -->
+            <div class="py-6">
+
+                <!-- Header -->
+                <div class="mb-6">
+                <h2 class="font-[Cormorant_Garamond] text-[48px] font-light tracking-[-0.5px] text-[#2C2C2C] mb-2">
+                    Nossa História
+                </h2>
+
+                <p class="font-[Cormorant_Garamond] text-[24px] font-light text-[#C4B5A0]">
+                    Onde Cada Peça Conta uma História
+                </p>
+                </div>
+
+                <!-- Description -->
+                <p class="font-[Montserrat] text-[16px] font-light leading-[1.8] text-[#2C2C2C] mb-8">
+                O Closet Concept nasceu da paixão por criar experiências únicas através da moda.
+                Cada peça em nossa coleção é cuidadosamente selecionada para mulheres que valorizam
+                elegância, qualidade e exclusividade.
+                </p>
+
+                <!-- VALUES -->
+                <div class="flex flex-col gap-6">
+
+                <!-- Card -->
+                <div class="group flex gap-4 p-5 bg-white rounded-lg border border-[rgba(196,181,160,0.2)] transition-all duration-300 hover:border-[#C4B5A0] hover:shadow-[0_4px_16px_rgba(196,181,160,0.2)] hover:translate-x-2 animate-[fadeInUp_0.6s_ease-out_both]">
+
+                    <div class="w-12 h-12 flex items-center justify-center bg-[#C4B5A0]/10 rounded-lg text-[#C4B5A0] shrink-0">
+                    ✨
+                    </div>
+
+                    <div>
+                    <h3 class="font-[Montserrat] text-[16px] font-medium text-[#2C2C2C] mb-1">
+                        Exclusividade
+                    </h3>
+                    <p class="text-[14px] text-[#8B7D6B] font-light">
+                        Peças únicas e edições limitadas
+                    </p>
+                    </div>
+
+                </div>
+
+                <!-- Card -->
+                <div class="group flex gap-4 p-5 bg-white rounded-lg border border-[rgba(196,181,160,0.2)] transition-all duration-300 hover:border-[#C4B5A0] hover:shadow-[0_4px_16px_rgba(196,181,160,0.2)] hover:translate-x-2 animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.1s]">
+
+                    <div class="w-12 h-12 flex items-center justify-center bg-[#C4B5A0]/10 rounded-lg text-[#C4B5A0] shrink-0">
+                    🏆
+                    </div>
+
+                    <div>
+                    <h3 class="font-[Montserrat] text-[16px] font-medium text-[#2C2C2C] mb-1">
+                        Qualidade Premium
+                    </h3>
+                    <p class="text-[14px] text-[#8B7D6B] font-light">
+                        Materiais nobres e acabamento impecável
+                    </p>
+                    </div>
+
+                </div>
+
+                <!-- Card -->
+                <div class="group flex gap-4 p-5 bg-white rounded-lg border border-[rgba(196,181,160,0.2)] transition-all duration-300 hover:border-[#C4B5A0] hover:shadow-[0_4px_16px_rgba(196,181,160,0.2)] hover:translate-x-2 animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.2s]">
+
+                    <div class="w-12 h-12 flex items-center justify-center bg-[#C4B5A0]/10 rounded-lg text-[#C4B5A0] shrink-0">
+                    ❤️
+                    </div>
+
+                    <div>
+                    <h3 class="font-[Montserrat] text-[16px] font-medium text-[#2C2C2C] mb-1">
+                        Atendimento Personalizado
+                    </h3>
+                    <p class="text-[14px] text-[#8B7D6B] font-light">
+                        Experiência única para cada cliente
+                    </p>
+                    </div>
+
+                </div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-[#FAF9F7] py-16">
+    <div class="max-w-7xl mx-auto px-4">
+
+        <div class="text-center mb-12">
+        <h2 class="text-3xl font-semibold text-[#2C2C2C] mb-2">
+            O Que Nossas Clientes Dizem
+        </h2>
+        <p class="text-[#8B7D6B] text-sm">
+            Histórias reais de mulheres que transformaram seu estilo
+        </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- CARD 1 -->
+        <div class="bg-white rounded-lg p-8 shadow-[0_4px_16px_rgba(0,0,0,0.08)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.15)] transform hover:-translate-y-2 transition-all duration-400 ease-out relative animate-[fadeInUp_0.6s_ease-out_both]">
+
+            <div class="absolute top-6 right-6 text-[rgba(196,181,160,0.2)]">
+            <!-- SVG -->
+            </div>
+
+            <div class="flex gap-1 mb-4">
+            <!-- estrelas -->
+            </div>
+
+            <p class="font-[Montserrat] text-[15px] font-light leading-[1.7] text-[#2C2C2C] mb-6 italic">
+            "A qualidade das peças do Closet Concept é incomparável. Cada item é uma obra de arte que transforma meu guarda-roupa."
+            </p>
+
+            <div class="flex items-center gap-3">
+            <img
+                class="w-12 h-12 rounded-full object-cover"
+                src="https://images.pexels.com/photos/3762938/pexels-photo-3762938.jpeg"
+                alt="Mariana Silva"
+            />
+            <div>
+                <h4 class="font-[Montserrat] text-sm font-medium text-[#2C2C2C]">
+                Mariana Silva
+                </h4>
+                <p class="font-[Montserrat] text-xs font-light text-[#8B7D6B]">
+                Cliente VIP
+                </p>
+            </div>
+            </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="bg-white rounded-lg p-8 shadow-[0_4px_16px_rgba(0,0,0,0.08)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.15)] transform hover:-translate-y-2 transition-all duration-400 ease-out relative animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.15s]">
+
+            <div class="absolute top-6 right-6 text-[rgba(196,181,160,0.2)]">
+            <!-- SVG -->
+            </div>
+
+            <div class="flex gap-1 mb-4">
+            <!-- estrelas -->
+            </div>
+
+            <p class="font-[Montserrat] text-[15px] font-light leading-[1.7] text-[#2C2C2C] mb-6 italic">
+            "Encontrei no Closet Concept o equilíbrio perfeito entre elegância e modernidade. Simplesmente impecável!"
+            </p>
+
+            <div class="flex items-center gap-3">
+            <img
+                class="w-12 h-12 rounded-full object-cover"
+                src="https://images.unsplash.com/photo-1700756739057-f6ec705ffc1e"
+                alt="Beatriz Costa"
+            />
+            <div>
+                <h4 class="font-[Montserrat] text-sm font-medium text-[#2C2C2C]">
+                Beatriz Costa
+                </h4>
+                <p class="font-[Montserrat] text-xs font-light text-[#8B7D6B]">
+                Fashion Blogger
+                </p>
+            </div>
+            </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="bg-white rounded-lg p-8 shadow-[0_4px_16px_rgba(0,0,0,0.08)] hover:shadow-[0_12px_32px_rgba(0,0,0,0.15)] transform hover:-translate-y-2 transition-all duration-400 ease-out relative animate-[fadeInUp_0.6s_ease-out_both] [animation-delay:0.3s]">
+
+            <div class="absolute top-6 right-6 text-[rgba(196,181,160,0.2)]">
+            <!-- SVG -->
+            </div>
+
+            <div class="flex gap-1 mb-4">
+            <!-- estrelas -->
+            </div>
+
+            <p class="font-[Montserrat] text-[15px] font-light leading-[1.7] text-[#2C2C2C] mb-6 italic">
+            "Peças exclusivas que realmente fazem diferença. O atendimento e a qualidade são excepcionais."
+            </p>
+
+            <div class="flex items-center gap-3">
+            <img
+                class="w-12 h-12 rounded-full object-cover"
+                src="https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg"
+                alt="Carolina Mendes"
+            />
+            <div>
+                <h4 class="font-[Montserrat] text-sm font-medium text-[#2C2C2C]">
+                Carolina Mendes
+                </h4>
+                <p class="font-[Montserrat] text-xs font-light text-[#8B7D6B]">
+                Executiva
+                </p>
+            </div>
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <section class="gradient-to-br from-[#D4C4B0] to-[#C4B5A0] py-24 px-6">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center">
+
+            <!-- ICON -->
+            <div class="w-16 h-16 mx-auto mb-6 flex items-center justify-center bg-white/20 rounded-full text-[#FAF9F7]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="h-12 w-12">
+                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                </svg>
+            </div>
+
+            <!-- TITLE -->
+            <h2 class="text-[42px] font-light text-[#FAF9F7] mb-4 font-serif">
+                Fique por Dentro
+            </h2>
+
+            <!-- SUBTITLE -->
+            <p class="text-base font-light text-[#F5F3F0] leading-relaxed mb-8">
+                Receba em primeira mão nossas novidades, ofertas exclusivas e dicas de estilo
+            </p>
+
+            <!-- FORM -->
+            <form class="mb-4">
+                <div class="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
+
+                <input
+                    type="email"
+                    placeholder="Seu melhor e-mail"
+                    class="flex-1 h-14 bg-white rounded px-5 text-[15px] outline-none"
+                />
+
+                <button
+                    type="submit"
+                    class="h-14 bg-[#6B4E37] text-[#FAF9F7] font-medium tracking-wide uppercase px-8 rounded whitespace-nowrap transition-all duration-300 hover:bg-[#5A4230] hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2"
+                >
+                    Inscrever-se
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="w-4 h-4">
+                    <path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path>
+                    <path d="m21.854 2.147-10.94 10.939"></path>
+                    </svg>
+                </button>
+
+                </div>
+            </form>
+
+            <!-- PRIVACY -->
+            <p class="text-xs font-light text-[#F5F3F0]">
+                Ao se inscrever, você concorda com nossa política de privacidade
+            </p>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bg-[#2C2C2C] text-[#F5F3F0] pt-16 pb-6">
+
+  <div class="max-w-360 mx-auto px-6">
+
+    <div class="grid grid-cols-1 lg:grid-cols-[2fr_3fr_1fr] gap-12 lg:gap-16 mb-12 pb-12 border-b border-[rgba(245,243,240,0.1)]">
+
+      <!-- Brand -->
+      <div class="max-w-75">
+        <div class="flex items-center gap-3 mb-4 text-[#C4B5A0]">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"></circle>
+            <text x="24" y="32" text-anchor="middle" fill="currentColor" font-size="24" font-family="serif" font-weight="300">
+              C
+            </text>
+          </svg>
+
+          <span class="font-[Cormorant_Garamond] text-[20px] font-light tracking-[-0.3px]">
+            Closet Concept
+          </span>
+        </div>
+
+        <p class="text-[14px] font-light leading-relaxed text-[#8B7D6B] mb-6">
+          Onde elegância encontra estilo. Peças exclusivas para mulheres que valorizam sofisticação.
+        </p>
+
+        <div class="flex gap-3">
+          <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[rgba(196,181,160,0.1)] text-[#C4B5A0] hover:bg-[#C4B5A0] hover:text-[#FAF9F7] transition hover:-translate-y-0.5"></a>
+          <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[rgba(196,181,160,0.1)] text-[#C4B5A0] hover:bg-[#C4B5A0] hover:text-[#FAF9F7] transition hover:-translate-y-0.5"></a>
+          <a class="w-10 h-10 flex items-center justify-center rounded-full bg-[rgba(196,181,160,0.1)] text-[#C4B5A0] hover:bg-[#C4B5A0] hover:text-[#FAF9F7] transition hover:-translate-y-0.5"></a>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-[14px] font-medium uppercase mb-4">Comprar</h3>
+          <ul class="space-y-3 text-[#8B7D6B] text-sm">
+            <li><a class="hover:text-[#C4B5A0]">Joias</a></li>
+            <li><a class="hover:text-[#C4B5A0]">Roupas</a></li>
+            <li><a class="hover:text-[#C4B5A0]">Acessórios</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-[14px] font-medium uppercase mb-4">Sobre</h3>
+          <ul class="space-y-3 text-[#8B7D6B] text-sm">
+            <li><a class="hover:text-[#C4B5A0]">Nossa História</a></li>
+            <li><a class="hover:text-[#C4B5A0]">Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-[14px] font-medium uppercase mb-4">Ajuda</h3>
+          <ul class="space-y-3 text-[#8B7D6B] text-sm">
+            <li><a class="hover:text-[#C4B5A0]">FAQ</a></li>
+            <li><a class="hover:text-[#C4B5A0]">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contato -->
+      <div class="text-[#8B7D6B] text-sm space-y-3">
+        <h3 class="text-[14px] font-medium uppercase text-white">Contato</h3>
+        <p>(11) 9999-9999</p>
+        <p>contato@closetconcept.com.br</p>
+        <p>São Paulo, SP</p>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-[#8B7D6B] text-sm text-center md:text-left">
+      <div class="flex flex-wrap gap-4">
+        <a class="hover:text-[#C4B5A0]">Termos</a>
+        <a class="hover:text-[#C4B5A0]">Privacidade</a>
+        <a class="hover:text-[#C4B5A0]">Cookies</a>
+      </div>
+
+      <p>© 2024 Closet Concept</p>
+    </div>
+
+  </div>
+</footer>

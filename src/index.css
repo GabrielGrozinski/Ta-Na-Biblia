@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap');
+
+@import "tailwindcss";
+
+* {
+    cursor: url('/mickey.png'), auto;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-display {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.bg-gameshow {
+  background-color: #38bdf8; /* azul de base */
+  background-image: radial-gradient(#bae6fd 1px, transparent 1px);
+  background-size: 24px 24px; /* espaçamento entre os pontos */;
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+.animate-wiggle {
+  animation: wiggle 4.5s ease-in-out infinite;
+}
+
