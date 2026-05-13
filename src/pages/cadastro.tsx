@@ -7,9 +7,11 @@ import { observerLista } from '../hooks/oberserver-hook';
 
 export default function LoginLayout() {
     const [loading, setLoading] = useState<boolean>(false);
+    setLoading(false);
     const [email, setEmail] = useState<string>('');
     const [senha, setSenha] = useState<string>('');
     const [id, setId] = useState<string>('');
+    setId('');
     const observer_lista_1 = observerLista<HTMLDivElement>();
     const observer_lista_2 = observerLista<HTMLDivElement>();
     const [busca, setBusca] = useState<string>('');
